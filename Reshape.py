@@ -51,28 +51,7 @@ for root, dirs, files in os.walk('/home/fikrat/venv/lib/python3.7/site-packages/
 
 
             print(cut_height)
-            #print(dirname[3:-3])
-                    #
-                    # if pixel.all == [255, 255, 255]:
-                    #     arrays.append(pixel)
-                    # else:
-                    #
-                    # else:
-                    #     continue
-                    # print(arrays)
-
-
-
-
-
-
-            #
-
-                    #if pixels[height, width] == (whitepixel):
-                     #   if height > cut_height:
-                      #      cut_height = height
-        #print(cut_height)
-
+         
 
 
 
