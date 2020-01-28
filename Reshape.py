@@ -20,17 +20,9 @@ for root, dirs, files in os.walk('/home/fikrat/venv/lib/python3.7/site-packages/
 
     for files in sorted(os.listdir(os.getcwd())):
         if files.endswith(".png") and files == "File" + str(count) + ".png":
-
-        # for dirname in sorted(files):
-
-        # if dirname.endswith('.png') and dirname.find(str(count),0,5):
-            #print(dirname)
             print(files)
            # sorted(dirname)
             image = cv2.imread(files, cv2.IMREAD_COLOR)
-            #whitepixel = [255, 255, 255]
-            #pixels = np.array([],[])
-            #output = str(1)
             cut_height = image.shape[0]
             arrays = []
             pixel = [[], []]
